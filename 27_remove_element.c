@@ -9,8 +9,8 @@ void swap(int *a, int *b) {
 
 int removeElement(int* a, int n, int key) {
 
-  int i = 0;
-  int k = 0;
+  int i = 0; // traverse the array
+  int k = 0; // reduced elemetn
 
   for (i = 0; i <n; i++) {
       if (a[i] != key) {
